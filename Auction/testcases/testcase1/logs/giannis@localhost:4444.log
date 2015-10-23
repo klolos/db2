@@ -1,0 +1,5 @@
+01:02:34 : Got message: info: message = "You are now connected to the server."
+01:02:36 : User said: list_description
+01:02:42 : Got message: bid_item: description = "This is the second item", item_id = "2", starting_price = "40"
+01:02:52 : Got message: bid_item: description = "This is the last item", item_id = "3", starting_price = "100"
+01:03:02 : Got message: auction_complete: 

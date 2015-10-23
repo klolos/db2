@@ -1,0 +1,5 @@
+10
+3
+50 This is the first item
+40 This is the second item
+100 This is the last item

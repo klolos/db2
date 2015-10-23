@@ -1,0 +1,23 @@
+5
+chara   5556
+bill    5556
+kostas  4444
+maria   5556
+giannis 4444
+
+1000  chara   launch
+1500  bill    launch
+1500  kostas  launch
+1500  giannis launch
+1500  maria   launch
+14500 chara   i_am_interested
+14500 bill    i_am_interested
+14500 kostas  i_am_interested
+14500 maria   i_am_interested
+14500 giannis i_am_interested
+25000 bill    bid 600
+25000 maria   bid 560
+25000 chara   bid 700
+25000 kostas  bid 710
+25000 giannis bid 600
+27000 maria   list_high_bid

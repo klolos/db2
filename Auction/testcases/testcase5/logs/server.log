@@ -1,0 +1,168 @@
+caller: 01:40:15 : Querying: Delete from items;
+caller: 01:40:15 : Querying: Insert into items values("1", "50", "This is the first item", null, null);
+caller: 01:40:15 : Querying: Insert into items values("2", "40", "This is the second item", null, null);
+caller: 01:40:15 : Querying: Insert into items values("3", "100", "This is the last item", null, null);
+callee: 01:40:16 : Querying: Delete from items;
+callee: 01:40:16 : Querying: Insert into items values("1", "50", "This is the first item", null, null);
+callee: 01:40:16 : Querying: Insert into items values("2", "40", "This is the second item", null, null);
+callee: 01:40:16 : Querying: Insert into items values("3", "100", "This is the last item", null, null);
+caller: 01:40:16 : Auctioneer starting ...
+callee: 01:40:16 : Auctioneer starting ...
+caller: 01:40:16 : Connecting to remote peer
+callee: 01:40:16 : Now accepting peers!
+caller: 01:40:17 : Connected to remote peer
+callee: 01:40:17 : Peer accepted!
+caller: 01:40:17 : Connection accepted!
+caller: 01:40:17 : Received: connect: username = "chara@localhost:4444"
+callee: 01:40:18 : Connection accepted!
+callee: 01:40:18 : Received: connect: username = "bill@localhost:5556"
+caller: 01:40:21 : Auctions start in 5 seconds!
+caller: 01:40:26 : Auctions are beggining!
+callee: 01:40:26 : Auctions are beggining!
+callee: 01:40:26 : Changing State to READY_TO_BEGIN
+caller: 01:40:26 : Changing State to READY_TO_BEGIN
+callee: 01:40:26 : Received: ready_to_run: 
+caller: 01:40:26 : Received: ready_to_run: 
+caller: 01:40:26 : Got ready to run message
+callee: 01:40:26 : Got ready to run message
+callee: 01:40:26 : Starting Auction for next item
+caller: 01:40:26 : Starting Auction for next item
+caller: 01:40:26 : Changing State to ACCEPTING_INTERESTS
+callee: 01:40:26 : Changing State to ACCEPTING_INTERESTS
+caller: 01:40:26 : Received: i_am_interested: username = "chara@localhost:4444", item_id = "1"
+caller: 01:40:26 : Added user chara@localhost:4444 to interestedUsers list for the current item
+callee: 01:40:27 : Received: i_am_interested: username = "bill@localhost:5556", item_id = "1"
+callee: 01:40:27 : Added user bill@localhost:5556 to interestedUsers list for the current item
+caller: 01:40:36 : Changing State to WAITING_INTERESTED_COUNT
+caller: 01:40:36 : interest time ended!
+callee: 01:40:36 : Received: interested_count: amount = "1"
+callee: 01:40:36 : Changing State to WAITING_INTERESTED_COUNT
+caller: 01:40:36 : Received: interested_count: amount = "1"
+caller: 01:40:36 : Changing State to ACCEPTING_BIDS
+callee: 01:40:36 : interest time ended!
+callee: 01:40:36 : Changing State to ACCEPTING_BIDS
+caller: 01:40:46 : bid timer ended
+caller: 01:40:46 : Changing State to READY_TO_END
+callee: 01:40:46 : Received: ready_to_end: 
+callee: 01:40:46 : Got ready to end message
+callee: 01:40:46 : bid timer ended
+callee: 01:40:46 : Changing State to READY_TO_END
+caller: 01:40:46 : Received: ready_to_end: 
+caller: 01:40:46 : Got ready to end message
+caller: 01:40:46 : sent bid again from handleReadyToEnd
+caller: 01:40:46 : Changing State to ACCEPTING_BIDS
+callee: 01:40:46 : sent bid again message
+callee: 01:40:46 : Changing State to ACCEPTING_BIDS
+caller: 01:40:56 : bid timer ended
+caller: 01:40:56 : Changing State to READY_TO_END
+callee: 01:40:56 : Received: ready_to_end: 
+callee: 01:40:56 : Got ready to end message
+caller: 01:40:56 : sent bid again message
+callee: 01:40:56 : bid timer ended
+callee: 01:40:56 : Changing State to READY_TO_END
+caller: 01:40:56 : Changing State to ACCEPTING_BIDS
+caller: 01:40:56 : Received: ready_to_end: 
+caller: 01:40:56 : Got ready to end message
+callee: 01:40:56 : sent bid again message
+callee: 01:40:56 : Changing State to ACCEPTING_BIDS
+caller: 01:40:56 : Received: my_bid: amount = "41", username = "chara@localhost:4444", item_id = "1"
+callee: 01:40:56 : Received: got_bid: amount = "41", username = "chara@localhost:4444"
+callee: 01:40:56 : New highest bid from user chara@localhost:4444, amount = 41
+callee: 01:40:56 : Changing State to ACCEPTING_BIDS
+caller: 01:40:56 : Received: bid_ok: amount = "41", username = "chara@localhost:4444"
+caller: 01:40:56 : New highest bid from user chara@localhost:4444, amount = 41
+caller: 01:40:56 : Changing State to ACCEPTING_BIDS
+callee: 01:40:56 : Received: my_bid: amount = "42", username = "bill@localhost:5556", item_id = "1"
+caller: 01:40:57 : Received: got_bid: amount = "42", username = "bill@localhost:5556"
+caller: 01:40:57 : New highest bid from user bill@localhost:5556, amount = 42
+caller: 01:40:57 : Changing State to ACCEPTING_BIDS
+callee: 01:40:57 : Received: bid_ok: amount = "42", username = "bill@localhost:5556"
+callee: 01:40:57 : New highest bid from user bill@localhost:5556, amount = 42
+callee: 01:40:57 : Changing State to ACCEPTING_BIDS
+caller: 01:40:57 : Received: my_bid: amount = "43", username = "chara@localhost:4444", item_id = "1"
+callee: 01:40:57 : Received: got_bid: amount = "43", username = "chara@localhost:4444"
+callee: 01:40:57 : New highest bid from user chara@localhost:4444, amount = 43
+callee: 01:40:57 : Changing State to ACCEPTING_BIDS
+caller: 01:40:57 : Received: bid_ok: amount = "43", username = "chara@localhost:4444"
+caller: 01:40:57 : New highest bid from user chara@localhost:4444, amount = 43
+caller: 01:40:57 : Changing State to ACCEPTING_BIDS
+callee: 01:40:57 : Received: my_bid: amount = "44", username = "bill@localhost:5556", item_id = "1"
+caller: 01:40:57 : Received: got_bid: amount = "44", username = "bill@localhost:5556"
+caller: 01:40:57 : New highest bid from user bill@localhost:5556, amount = 44
+caller: 01:40:57 : Changing State to ACCEPTING_BIDS
+callee: 01:40:57 : Received: bid_ok: amount = "44", username = "bill@localhost:5556"
+callee: 01:40:57 : New highest bid from user bill@localhost:5556, amount = 44
+callee: 01:40:57 : Changing State to ACCEPTING_BIDS
+caller: 01:40:57 : Received: my_bid: amount = "45", username = "chara@localhost:4444", item_id = "1"
+callee: 01:40:57 : Received: got_bid: amount = "45", username = "chara@localhost:4444"
+callee: 01:40:57 : New highest bid from user chara@localhost:4444, amount = 45
+callee: 01:40:57 : Changing State to ACCEPTING_BIDS
+caller: 01:40:57 : Received: bid_ok: amount = "45", username = "chara@localhost:4444"
+caller: 01:40:57 : New highest bid from user chara@localhost:4444, amount = 45
+caller: 01:40:57 : Changing State to ACCEPTING_BIDS
+caller: 01:40:57 : Received: my_bid: amount = "46", username = "chara@localhost:4444", item_id = "1"
+callee: 01:40:57 : Received: got_bid: amount = "46", username = "chara@localhost:4444"
+callee: 01:40:57 : New highest bid from user chara@localhost:4444, amount = 46
+callee: 01:40:57 : Changing State to ACCEPTING_BIDS
+caller: 01:40:57 : Received: bid_ok: amount = "46", username = "chara@localhost:4444"
+caller: 01:40:57 : New highest bid from user chara@localhost:4444, amount = 46
+caller: 01:40:57 : Changing State to ACCEPTING_BIDS
+callee: 01:40:58 : Received: my_bid: amount = "47", username = "bill@localhost:5556", item_id = "1"
+caller: 01:40:58 : Received: got_bid: amount = "47", username = "bill@localhost:5556"
+caller: 01:40:58 : New highest bid from user bill@localhost:5556, amount = 47
+caller: 01:40:58 : Changing State to ACCEPTING_BIDS
+callee: 01:40:58 : Received: bid_ok: amount = "47", username = "bill@localhost:5556"
+callee: 01:40:58 : New highest bid from user bill@localhost:5556, amount = 47
+callee: 01:40:58 : Changing State to ACCEPTING_BIDS
+caller: 01:40:58 : Received: my_bid: amount = "48", username = "chara@localhost:4444", item_id = "1"
+callee: 01:40:58 : Received: got_bid: amount = "48", username = "chara@localhost:4444"
+callee: 01:40:58 : New highest bid from user chara@localhost:4444, amount = 48
+callee: 01:40:58 : Changing State to ACCEPTING_BIDS
+caller: 01:40:58 : Received: bid_ok: amount = "48", username = "chara@localhost:4444"
+caller: 01:40:58 : New highest bid from user chara@localhost:4444, amount = 48
+caller: 01:40:58 : Changing State to ACCEPTING_BIDS
+callee: 01:40:59 : Received: my_bid: amount = "49", username = "bill@localhost:5556", item_id = "1"
+caller: 01:40:59 : Received: got_bid: amount = "49", username = "bill@localhost:5556"
+caller: 01:40:59 : New highest bid from user bill@localhost:5556, amount = 49
+caller: 01:40:59 : Changing State to ACCEPTING_BIDS
+callee: 01:40:59 : Received: bid_ok: amount = "49", username = "bill@localhost:5556"
+callee: 01:40:59 : New highest bid from user bill@localhost:5556, amount = 49
+callee: 01:40:59 : Changing State to ACCEPTING_BIDS
+caller: 01:41:09 : bid timer ended
+caller: 01:41:09 : Changing State to READY_TO_END
+callee: 01:41:09 : Received: ready_to_end: 
+callee: 01:41:09 : Got ready to end message
+callee: 01:41:09 : bid timer ended
+callee: 01:41:09 : Changing State to READY_TO_END
+caller: 01:41:09 : Querying: Update items set bid = "49", bidder = "bill@localhost:5556" where id = "1";
+callee: 01:41:09 : Querying: Update items set bid = "49", bidder = "bill@localhost:5556" where id = "1";
+caller: 01:41:09 : Starting Auction for next item
+caller: 01:41:09 : Changing State to ACCEPTING_INTERESTS
+caller: 01:41:09 : Received: ready_to_end: 
+caller: 01:41:09 : Got ready to end message
+callee: 01:41:09 : Starting Auction for next item
+callee: 01:41:09 : Changing State to ACCEPTING_INTERESTS
+caller: 01:41:19 : Changing State to WAITING_INTERESTED_COUNT
+caller: 01:41:19 : interest time ended!
+callee: 01:41:19 : Received: interested_count: amount = "0"
+callee: 01:41:19 : Changing State to WAITING_INTERESTED_COUNT
+caller: 01:41:19 : Received: interested_count: amount = "0"
+caller: 01:41:19 : Item 2 is discarded due to lack of interest
+caller: 01:41:19 : Starting Auction for next item
+caller: 01:41:19 : Changing State to ACCEPTING_INTERESTS
+callee: 01:41:19 : interest time ended!
+callee: 01:41:19 : Item 2 is discarded due to lack of interest
+callee: 01:41:19 : Starting Auction for next item
+callee: 01:41:19 : Changing State to ACCEPTING_INTERESTS
+caller: 01:41:29 : Changing State to WAITING_INTERESTED_COUNT
+caller: 01:41:29 : interest time ended!
+callee: 01:41:29 : Received: interested_count: amount = "0"
+callee: 01:41:29 : Changing State to WAITING_INTERESTED_COUNT
+callee: 01:41:29 : interest time ended!
+caller: 01:41:29 : Received: interested_count: amount = "0"
+callee: 01:41:29 : Item 3 is discarded due to lack of interest
+caller: 01:41:29 : Item 3 is discarded due to lack of interest
+caller: 01:41:29 : Auctions have ended
+callee: 01:41:29 : Auctions have ended
+callee: 01:41:30 : Shuting Down ...
+caller: 01:41:30 : Shuting Down ...

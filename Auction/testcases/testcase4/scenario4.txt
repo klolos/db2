@@ -1,0 +1,2 @@
+5 users connect at the same time, declare interest at the same time and bid different amounts
+at the same time at different auctioneers.

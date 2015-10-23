@@ -1,0 +1,8 @@
+01:00:21 : Got message: info: message = "You are now connected to the server."
+01:00:30 : User said: i_am_interested
+01:00:31 : Got message: bid_item: description = "This is the second item", item_id = "2", starting_price = "40"
+01:00:41 : User said: bid 560
+01:00:41 : Sending message: my_bid: amount = "560", username = "maria@localhost:5556", item_id = "2"
+01:00:41 : Got message: info: message = "You have not declared interest for this item."
+01:00:41 : Got message: bid_item: description = "This is the last item", item_id = "3", starting_price = "100"
+01:00:51 : Got message: auction_complete: 

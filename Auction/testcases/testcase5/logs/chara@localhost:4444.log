@@ -1,0 +1,33 @@
+01:40:17 : Got message: info: message = "You are now connected to the server."
+01:40:21 : Got message: info: message = "Auctions start in 5 seconds!"
+01:40:26 : Got message: info: message = "Welcome to the auction house!"
+01:40:26 : Got message: bid_item: description = "This is the first item", item_id = "1", starting_price = "50"
+01:40:26 : User said: i_am_interested
+01:40:26 : Sending message: i_am_interested: username = "chara@localhost:4444", item_id = "1"
+01:40:26 : Got message: info: message = "You will now receive updates for this item."
+01:40:36 : Got message: start_bidding: item_id = "1", starting_price = "50"
+01:40:46 : Got message: new_high_bid: amount = "45", username = "no_holder"
+01:40:56 : Got message: new_high_bid: amount = "40", username = "no_holder"
+01:40:56 : User said: bid 41
+01:40:56 : Sending message: my_bid: amount = "41", username = "chara@localhost:4444", item_id = "1"
+01:40:56 : Got message: new_high_bid: amount = "41", username = "chara@localhost:4444"
+01:40:57 : Got message: new_high_bid: amount = "42", username = "bill@localhost:5556"
+01:40:57 : User said: bid 43
+01:40:57 : Sending message: my_bid: amount = "43", username = "chara@localhost:4444", item_id = "1"
+01:40:57 : Got message: new_high_bid: amount = "43", username = "chara@localhost:4444"
+01:40:57 : Got message: new_high_bid: amount = "44", username = "bill@localhost:5556"
+01:40:57 : User said: bid 45
+01:40:57 : Sending message: my_bid: amount = "45", username = "chara@localhost:4444", item_id = "1"
+01:40:57 : Got message: new_high_bid: amount = "45", username = "chara@localhost:4444"
+01:40:57 : User said: bid 46
+01:40:57 : Sending message: my_bid: amount = "46", username = "chara@localhost:4444", item_id = "1"
+01:40:57 : Got message: new_high_bid: amount = "46", username = "chara@localhost:4444"
+01:40:58 : Got message: new_high_bid: amount = "47", username = "bill@localhost:5556"
+01:40:58 : User said: bid 48
+01:40:58 : Sending message: my_bid: amount = "48", username = "chara@localhost:4444", item_id = "1"
+01:40:58 : Got message: new_high_bid: amount = "48", username = "chara@localhost:4444"
+01:40:59 : Got message: new_high_bid: amount = "49", username = "bill@localhost:5556"
+01:41:09 : Got message: stop_bidding: highest_bid = "49", item_id = "1", winner = "bill@localhost:5556"
+01:41:09 : Got message: bid_item: description = "This is the second item", item_id = "2", starting_price = "40"
+01:41:19 : Got message: bid_item: description = "This is the last item", item_id = "3", starting_price = "100"
+01:41:29 : Got message: auction_complete: 

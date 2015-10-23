@@ -1,0 +1,10 @@
+01:02:04 : Got message: info: message = "You are now connected to the server."
+01:02:07 : Got message: info: message = "Auctions start in 5 seconds!"
+01:02:12 : Got message: info: message = "Welcome to the auction house!"
+01:02:12 : Got message: bid_item: description = "This is the first item", item_id = "1", starting_price = "50"
+01:02:38 : User said: i_am_interested
+01:02:38 : Sending message: i_am_interested: username = "bill@localhost:5556", item_id = "1"
+01:02:38 : Got message: info: message = "Not accepting interests at the moment."
+01:02:42 : Got message: bid_item: description = "This is the second item", item_id = "2", starting_price = "40"
+01:02:52 : Got message: bid_item: description = "This is the last item", item_id = "3", starting_price = "100"
+01:03:02 : Got message: auction_complete: 

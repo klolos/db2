@@ -1,0 +1,9 @@
+Bill: Interested for item 1. Nobody declares interest, so it gets a discount. After the discount, chara bids 150. Then Bill bids 200 and wins the item. Item 2 is skiped for Bill, because he doesn't declare interest. The same for item 3.
+
+Maria: i_am_interested before the appropriate time lapse => cannot bid for the item, cause doesn't exist in the interested bidders list
+
+Chara: bids for item 1 but finally Bill wins it. Then she quits
+
+Kostas: not in the interested users list => cannot bid
+
+Giannis: just asks for descriptions.

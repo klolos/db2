@@ -1,0 +1,1 @@
+Item 1: In the beginning, both chara & bill are interested. After that, nobody bids, so we hava the first discount of the item. Sequence of chara's and bill's bids, one higher than the other. Final winner announced is bill.

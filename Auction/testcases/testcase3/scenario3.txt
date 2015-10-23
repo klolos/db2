@@ -1,0 +1,5 @@
+Item 1: Chara is registered in the interested users list and gets updates for the discount. No-one ever tries to purchase item. Bill also gets update for item 1 (for the discounts as well) but never buys. 
+
+Items 2 & 3 get discarded
+
+

@@ -1,0 +1,16 @@
+00:32:08 : Got message: info: message = "You are now connected to the server."
+00:32:11 : Got message: info: message = "Auctions start in 5 seconds!"
+00:32:16 : Got message: info: message = "Welcome to the auction house!"
+00:32:16 : Got message: bid_item: description = "This is the first item", item_id = "1", starting_price = "50"
+00:32:17 : User said: i_am_interested
+00:32:17 : Sending message: i_am_interested: username = "chara@localhost:4444", item_id = "1"
+00:32:17 : Got message: info: message = "You will now receive updates for this item."
+00:32:26 : Got message: start_bidding: item_id = "1", starting_price = "50"
+00:32:36 : Got message: new_high_bid: amount = "45", username = "no_holder"
+00:32:46 : Got message: new_high_bid: amount = "40", username = "no_holder"
+00:32:56 : Got message: new_high_bid: amount = "35", username = "no_holder"
+00:33:06 : Got message: new_high_bid: amount = "30", username = "no_holder"
+00:33:16 : Got message: stop_bidding: highest_bid = "30", item_id = "1", winner = "no_holder"
+00:33:17 : Got message: bid_item: description = "This is the second item", item_id = "2", starting_price = "40"
+00:33:27 : Got message: bid_item: description = "This is the last item", item_id = "3", starting_price = "100"
+00:33:37 : Got message: auction_complete: 

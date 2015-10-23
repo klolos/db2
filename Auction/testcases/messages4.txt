@@ -1,0 +1,17 @@
+2
+chara   4444
+bill    5556
+
+1000  chara   launch
+1500  bill    launch
+10000 chara   i_am_interested
+11000 bill    i_am_interested
+40000 chara   bid 41
+40500 bill    bid 42
+40600 chara   bid 43
+40700 bill    bid 44
+41000 chara   bid 45
+41100 chara   bid 46
+42000 bill    bid 47
+42300 chara   bid 48
+43000 bill    bid 49
